@@ -90,14 +90,14 @@ while cap.isOpened():
             if hand_length_px > 0:
                 hand_scale_cm_per_pixel = 18.0 / hand_length_px
 
-            # Detect pinch gesture by measuring distance between thumb and index finger tips
+            # Detect pinch gesture by measuring distance between thumb and index fingertips
             pinch_distance_norm = math.sqrt(
                 (thumb_tip.x - index_tip.x)**2 + (thumb_tip.y - index_tip.y)**2
             )
 
             # If pinch distance is below threshold, consider it a pinch
             if pinch_distance_norm < 0.05:
-                # Calculate midpoint between thumb and index finger tips
+                # Calculate midpoint between thumb and index fingertips
                 midpoint = (
                     (thumb_pos[0] + index_pos[0]) // 2,
                     (thumb_pos[1] + index_pos[1]) // 2
