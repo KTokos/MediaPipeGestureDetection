@@ -19,7 +19,7 @@ def euclidean_distance_pixels(p1, p2):
 
 # Helper function to check if only the index finger is raised
 def is_only_index_raised(hand_landmarks):
-    # Define landmark indices for finger tips and PIP joints
+    # Define landmark indices for fingertips and PIP joints
     tips = [mp_hands.HandLandmark.THUMB_TIP,
             mp_hands.HandLandmark.INDEX_FINGER_TIP,
             mp_hands.HandLandmark.MIDDLE_FINGER_TIP,
