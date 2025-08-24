@@ -1,5 +1,5 @@
 ============================================================
-README.txt — Pinch Detection and Gesture Drawing with MediaPipe
+README.txt - Pinch Detection and Gesture Drawing with MediaPipe
 ============================================================
 
 📌 DESCRIPTION
